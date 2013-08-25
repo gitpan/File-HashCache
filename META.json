@@ -1,0 +1,49 @@
+{
+   "abstract" : "Process and cache files based on the hash of their contents.",
+   "author" : [
+      "David Caldwell <david@porkrind.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "File-HashCache",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "CSS::Minifier::XS" : "0"
+         },
+         "requires" : {
+            "File::Slurp" : "0",
+            "JSON" : "0",
+            "JavaScript::Minifier::XS" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "File::HashCache" : {
+         "file" : "lib/File/HashCache.pm",
+         "version" : "v1.0.0"
+      },
+      "File::HashCache::JavaScript" : {
+         "file" : "lib/File/HashCache/JavaScript.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v1.0.0"
+}
