@@ -15,9 +15,10 @@ name: File-HashCache
 provides:
   File::HashCache:
     file: lib/File/HashCache.pm
-    version: v1.0.0
+    version: v1.0.1
   File::HashCache::JavaScript:
     file: lib/File/HashCache/JavaScript.pm
+    version: v1.0.1
 recommends:
   CSS::Minifier::XS: 0
 requires:
@@ -26,4 +27,4 @@ requires:
   JavaScript::Minifier::XS: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v1.0.0
+version: v1.0.1

@@ -1,3 +1,11 @@
+File::HashCache::JavaScript (1.0.1)
+
+  * Add duplicate $VERSION to File::HashCache::JavaScript to allow
+    File-HashCache to override File-HashCache-JavaScript in the PAUSE
+    indexer.
+
+ -- David Caldwell <david@porkrind.org>  Sun, 25 Aug 2013 19:33:14 -0700
+
 File::HashCache::JavaScript (1.0.0)
 
   * Documented File::HashCache.
