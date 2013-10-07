@@ -8,7 +8,7 @@ package File::HashCache::JavaScript;
 use JavaScript::Minifier::XS;
 use File::HashCache;
 
-our $VERSION = '1.0.1'; # Sadly, needs to stay here as long as File-HashCache-Javascript-0.10.0 is on CPAN.
+our $VERSION = '1.0.2'; # Sadly, needs to stay here as long as File-HashCache-Javascript-0.10.0 is on CPAN.
 
 sub new {
     my $class = shift;

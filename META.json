@@ -4,7 +4,7 @@
       "David Caldwell <david@porkrind.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.39"
          }
       },
       "runtime" : {
@@ -33,11 +33,11 @@
    "provides" : {
       "File::HashCache" : {
          "file" : "lib/File/HashCache.pm",
-         "version" : "v1.0.1"
+         "version" : "v1.0.2"
       },
       "File::HashCache::JavaScript" : {
          "file" : "lib/File/HashCache/JavaScript.pm",
-         "version" : "v1.0.1"
+         "version" : "v1.0.2"
       }
    },
    "release_status" : "stable",
@@ -46,5 +46,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v1.0.1"
+   "version" : "v1.0.2"
 }

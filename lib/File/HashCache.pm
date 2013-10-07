@@ -6,7 +6,7 @@
 
 package File::HashCache; use warnings; use strict;
 
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 use List::Util qw(max);
 use Digest::MD5 qw(md5_hex);

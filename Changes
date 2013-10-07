@@ -1,3 +1,10 @@
+File::HashCache::JavaScript (1.0.2)
+
+  * Fix test that was failing on non-English locales (thanks
+    syohex@gmail.com).
+
+ -- David Caldwell <david@porkrind.org>  Mon, 07 Oct 2013 13:32:59 -0700
+
 File::HashCache::JavaScript (1.0.1)
 
   * Add duplicate $VERSION to File::HashCache::JavaScript to allow

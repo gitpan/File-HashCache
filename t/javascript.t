@@ -11,6 +11,7 @@ use Test::More tests => 18;
 use File::HashCache::JavaScript;
 use File::Temp qw(tempdir);
 use File::Slurp qw(write_file);
+use Errno ();
 
 my $dir = tempdir();
 sub file_with_contents($$) {
@@ -65,7 +66,7 @@ var f=3;
 EOF
 
 eval { $jsh->hash($filec) };
-like($@, qr/nonexistent file.*No such file or directory/,                   'could not find include file');
+ok($! == Errno::ENOENT,                                                  'could not find include file');
 
 sleep(1); # Weak! mtime must not be very high resolution.
 write_file($filea, <<EOF);
